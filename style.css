@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    display: flex;
+    
+}
+.half-width{
+    width: 50%;
+    margin: 2%;
+    padding: 3%;
+    font-size: 26px;
+}
+.half-width img{
+    width:80%;
+}
+.header{
+    background-image: url("Resources/header-bg.png");
+}
+.name{
+    color: #EC4C7A;
+}
+.button {
+    background-color: #EC4C7A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 4px 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .biography{
+      background-image: url("Resources/biography-bg.png");
+  }
+  .new-container{
+      display: flex;
+  }
+  .project{
+      width: 32%;
+      margin: 2px;
+      padding: 40px;
+       
+  }
+  .project img{
+      width: 90%;
+  }
+  .my-work{
+      text-align: center;
+      font-weight: bold;
+      font-size: 50px;
+      text-transform: capitalize;
+  }
+  .footer-area{
+      background-image: url("Resources/footer-bg.png");
+  }
+  .footer-area h1{
+      text-align: center;
+      font-weight: bold;
+      font-size: 50px;
+      text-transform: capitalize;
+  }
+  .client{
+      text-align: center;
+      margin: 70px;
+      padding: 20px;
+  }
+  .pink-box{
+      background-color: #EC4C7A;
+      width: 60%;
+      text-align: center;
+      padding: 30px;
+      margin: 0 auto;
+      border-radius: 12px;
+  }
+  .footer-area h6{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 10px;
+      margin: 90px;
+  }
